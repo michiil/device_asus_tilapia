@@ -1,5 +1,5 @@
 # Release name
-PRODUCT_RELEASE_NAME := Nexus7-GSM
+PRODUCT_RELEASE_NAME := tilapia
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1280
