@@ -17,6 +17,11 @@ $(call inherit-product, vendor/slim/config/nfc_enhanced.mk)
 # Inherit device configuration
 $(call inherit-product, device/asus/tilapia/full_tilapia.mk)
 
+#MMS and Phone
+PRODUCT_PACKAGES += \
+    Mms \
+    Phone
+
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := tilapia
 PRODUCT_NAME := slim_tilapia
