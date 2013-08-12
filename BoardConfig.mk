@@ -38,5 +38,10 @@ TARGET_RECOVERY_UPDATER_EXTRA_LIBS := libIMCdownload libPrgHandler
 
 TARGET_RELEASETOOLS_EXTENSIONS := device/asus/tilapia
 
+# use the new recovery.fstab format
+RECOVERY_FSTAB_VERSION = 2
+
 -include vendor/asus/tilapia/BoardConfigVendor.mk
 include device/asus/grouper/BoardConfigCommon.mk
+
+TARGET_RECOVERY_FSTAB = device/asus/tilapia/fstab.grouper
